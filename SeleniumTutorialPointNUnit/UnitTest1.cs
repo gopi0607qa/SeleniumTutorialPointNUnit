@@ -67,7 +67,7 @@ namespace SeleniumTutorialPointNUnit
 
             Assert.That(homeTitle, Is.EqualTo("Student Registration Form"));
 
-            Thread.Sleep(5000);
+            Thread.Sleep(6000);
 
 
         }
