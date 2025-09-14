@@ -7,6 +7,8 @@ using SeleniumExtras.WaitHelpers;
 
 namespace SeleniumTutorialPointNUnit
 {
+    [TestFixture]
+    [Parallelizable(ParallelScope.All)]
     public class Tests
     {
 
